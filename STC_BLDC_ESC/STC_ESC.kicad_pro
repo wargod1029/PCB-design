@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "China.kicad_pro",
+    "filename": "STC_ESC.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -502,7 +502,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "STC_ESC.step",
       "svg": "",
       "vrml": ""
     },
