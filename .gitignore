@@ -2,3 +2,8 @@
 DRV_motordriver/fp-info-cache
 DRV_motordriver/fp-lib-table
 DRV_motordriver/DRV_motor_driver-backups/DRV_motor_driver-2026-05-29_190854.zip
+dual_motor_driver/fp-info-cache
+IR_sensorboard/fp-info-cache
+*.lck
+sensor_board/fp-info-cache
+IR_sensorboard/~netcar.kicad_pcb.lck
