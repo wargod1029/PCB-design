@@ -1,2 +1,4 @@
 *.kicad_prl
 DRV_motordriver/fp-info-cache
+DRV_motordriver/fp-lib-table
+DRV_motordriver/DRV_motor_driver-backups/DRV_motor_driver-2026-05-29_190854.zip

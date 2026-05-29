@@ -5,7 +5,133 @@
 	(uuid "36e81895-b7e3-4fc2-bbea-1b8e9ded2095")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "DRV_motor_driver:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "HKUST_RDC2025_Footprint_Lib:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DRV_motor_driver:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -144,7 +270,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "DRV_motor_driver:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -312,7 +438,7 @@
 				)
 			)
 		)
-		(symbol "DRV8701PRGER:DRV8701PRGER"
+		(symbol "DRV_motor_driver:DRV8701PRGER"
 			(pin_names
 				(offset 1.016)
 			)
@@ -969,7 +1095,7 @@
 				)
 			)
 		)
-		(symbol "HKUST_RDC2024_Symbol_Lib:MountingHole"
+		(symbol "DRV_motor_driver:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1051,461 +1177,7 @@
 				)
 			)
 		)
-		(symbol "HKUST_RDC2025_Symbol_Lib:C_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "HKUST_RDC2025_Footprint_Lib:C_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "HKUST_RDC2025_Symbol_Lib:SS54"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SS54"
-				(at -7.112 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "HKUST_RDC2025_Footprint_Lib:D_SMA"
-				(at -0.508 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS54_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS54_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "STC8H&16F&32G_主板_V3.1:SW-SPDT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -2.54 -5.842 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-				)
-			)
-			(property "Value" "SW-SPDT"
-				(at -8.128 3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "MSK-12C02"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "单刀双掷开关 3脚船型、钮子、拨动开关 SPDT Subminiature Toggle Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PUBLISHED" "24-Mar-1999"
-				(at -8.128 3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PUBLISHER" "Altium Limited"
-				(at -8.128 3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PRICE(RMB)" "0.000"
-				(at -8.128 3.302 0)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*MSK-12C02*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW-SPDT_1_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Simulation_SPICE:NMOS"
+		(symbol "DRV_motor_driver:NMOS"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -1802,6 +1474,334 @@
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DRV_motor_driver:SS54"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SS54"
+				(at -7.112 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "HKUST_RDC2025_Footprint_Lib:D_SMA"
+				(at -0.508 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS54_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS54_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DRV_motor_driver:SW-SPDT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 -5.842 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+				)
+			)
+			(property "Value" "SW-SPDT"
+				(at -8.128 3.302 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "MSK-12C02"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "单刀双掷开关 3脚船型、钮子、拨动开关 SPDT Subminiature Toggle Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PUBLISHED" "24-Mar-1999"
+				(at -8.128 3.302 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "PUBLISHER" "Altium Limited"
+				(at -8.128 3.302 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE(RMB)" "0.000"
+				(at -8.128 3.302 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*MSK-12C02*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW-SPDT_1_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3614,7 +3614,7 @@
 		(uuid "f970c7ea-a20b-470a-845d-9a4448ec8baf")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "DRV_motor_driver:NMOS")
 		(at 194.31 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3714,7 +3714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "DRV_motor_driver:NMOS")
 		(at 226.06 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3814,7 +3814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DRV8701PRGER:DRV8701PRGER")
+		(lib_id "DRV_motor_driver:DRV8701PRGER")
 		(at 105.41 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4224,7 +4224,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 158.75 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4294,7 +4294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 133.35 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4430,7 +4430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "DRV_motor_driver:Conn_01x02")
 		(at 267.97 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4632,7 +4632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "DRV_motor_driver:NMOS")
 		(at 194.31 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4864,7 +4864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "STC8H&16F&32G_主板_V3.1:SW-SPDT")
+		(lib_id "DRV_motor_driver:SW-SPDT")
 		(at 265.43 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5033,7 +5033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "DRV_motor_driver:NMOS")
 		(at 226.06 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5133,7 +5133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 140.97 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5201,7 +5201,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 125.73 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5335,7 +5335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 129.54 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5403,7 +5403,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:MountingHole")
+		(lib_id "DRV_motor_driver:MountingHole")
 		(at 212.09 631.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5467,7 +5467,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:MountingHole")
+		(lib_id "DRV_motor_driver:MountingHole")
 		(at 185.42 640.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5729,7 +5729,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "DRV_motor_driver:Conn_01x02")
 		(at 267.97 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5799,7 +5799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:MountingHole")
+		(lib_id "DRV_motor_driver:MountingHole")
 		(at 185.42 631.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5863,7 +5863,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 321.31 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5933,7 +5933,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:SS54")
+		(lib_id "DRV_motor_driver:SS54")
 		(at 163.83 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6067,7 +6067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 147.32 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6137,7 +6137,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "DRV_motor_driver:Conn_01x02")
 		(at 267.97 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6207,7 +6207,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:SS54")
+		(lib_id "DRV_motor_driver:SS54")
 		(at 163.83 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6275,7 +6275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 133.35 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6544,7 +6544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "DRV_motor_driver:Conn_01x02")
 		(at 267.97 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6614,7 +6614,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "DRV_motor_driver:NMOS")
 		(at 194.31 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6714,7 +6714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "DRV_motor_driver:NMOS")
 		(at 226.06 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6880,7 +6880,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "DRV_motor_driver:Conn_01x02")
 		(at 284.48 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7083,7 +7083,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "DRV_motor_driver:NMOS")
 		(at 194.31 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7249,7 +7249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "DRV_motor_driver:Conn_01x03")
 		(at 53.34 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7322,7 +7322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 147.32 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7458,7 +7458,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 140.97 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7592,7 +7592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DRV8701PRGER:DRV8701PRGER")
+		(lib_id "DRV_motor_driver:DRV8701PRGER")
 		(at 105.41 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7936,7 +7936,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "DRV_motor_driver:NMOS")
 		(at 226.06 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8036,7 +8036,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:MountingHole")
+		(lib_id "DRV_motor_driver:MountingHole")
 		(at 212.09 641.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8233,7 +8233,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "DRV_motor_driver:Conn_01x03")
 		(at 53.34 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8306,7 +8306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2025_Symbol_Lib:C_Small")
+		(lib_id "DRV_motor_driver:C_Small")
 		(at 158.75 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
