@@ -1,0 +1,108 @@
+(footprint "MountingHole_3.2mm_M3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3")
+	(tags "mounting hole 3.2mm no annular m3")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "89ed8bc8-1b48-4d26-bb82-7fd97ee3fa8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(uuid "9e00e8e7-bf2d-4bd3-849b-6049260b03d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "HKUST_RDC2024_Footprint_Lib:MountingHole_3.2mm_M3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a55bb0de-28fa-4cf8-ad23-a62ca8b7b136")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "576beda3-7ce4-4bcf-83c2-b673d34f2142")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole without connection"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c4a2dce-ab09-40b3-868e-2ab04f5a475e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "1f0db4bb-8568-458c-8332-37a83be21ca5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.45 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "91ba8835-467d-4e86-aa95-29f3d3ea507c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6d1c9f8f-b763-4981-84f8-e2cb6ae947dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "922acc3a-3eec-4063-9b39-e989b83a6a7f")
+	)
+)
