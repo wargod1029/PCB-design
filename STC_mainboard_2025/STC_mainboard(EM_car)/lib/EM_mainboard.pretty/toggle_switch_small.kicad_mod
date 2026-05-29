@@ -1,0 +1,130 @@
+(footprint "toggle_switch_small"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "24040676-8220-439c-9122-a564d788650a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at 0 -0.5 180)
+		(layer "F.Fab")
+		(uuid "3161a7a8-dabb-4260-8f0e-7df30d5f7679")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "spdtsw:toggle_switch_small"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e49d78e5-37e8-4236-b6d0-716e7fbe4bc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f79378bc-3d6f-4d49-ac38-cdfbcb8ad581")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9544588f-42c5-44d0-b23d-4515311d5b54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -5.35)
+		(end 8 -5.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c321ffd-39a6-4a99-a8f7-d794db89e041")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -5.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d974ead3-49e9-4ab6-be5b-0defe02f4d0a")
+	)
+	(fp_line
+		(start 8 0)
+		(end 0 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8b143cd-44ad-43ed-8e6b-98036dd76c8a")
+	)
+	(fp_line
+		(start 8 0)
+		(end 8 -5.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef6616be-98fe-4457-806c-32040b153570")
+	)
+	(pad "1" thru_hole rect
+		(at 1.5 -2.675)
+		(size 1.65 2.5)
+		(drill oval 0.65 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6369b7c8-0ac0-423b-b897-7c658b639d63")
+	)
+	(pad "2" thru_hole rect
+		(at 4 -2.675)
+		(size 1.65 2.5)
+		(drill oval 0.65 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1c4adbe9-5371-475f-8c8d-8dbaeba1ad36")
+	)
+	(pad "3" thru_hole rect
+		(at 6.5 -2.675)
+		(size 1.65 2.5)
+		(drill oval 0.65 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e19e502-b269-4d5f-8b6e-3331d59bb63e")
+	)
+)

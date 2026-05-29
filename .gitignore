@@ -9,3 +9,5 @@ sensor_board/fp-info-cache
 IR_sensorboard/~netcar.kicad_pcb.lck
 STC_BLDC_ESC/fp-info-cache
 STC_mainboard(EM_car)/fp-info-cache
+STC_mainboard_2025/STC_mainboard(EM_car)/fp-lib-table
+STC_mainboard_2025/STC_mainboard(EM_car)/fp-info-cache

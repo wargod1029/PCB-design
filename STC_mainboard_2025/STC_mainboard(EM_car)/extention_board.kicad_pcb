@@ -257,7 +257,7 @@
 	(net 136 "Net-(B1-+)")
 	(net 137 "unconnected-(U2-EN-Pad3)")
 	(net 138 "Net-(D13-K)")
-	(footprint "AI8051U_48P_主板_V1.0kicad:HDR2X3-M"
+	(footprint "EM_mainboard:HDR2X3-M"
 		(layer "F.Cu")
 		(uuid "0bac465c-89c2-439d-b0ba-5501567aa837")
 		(at 107.445 134.328 90)
@@ -689,7 +689,7 @@
 			(uuid "25d112ba-218b-4b4f-800e-53af9480c800")
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:L_7.3x7.3_H3.5"
+	(footprint "EM_mainboard:L_7.3x7.3_H3.5"
 		(layer "F.Cu")
 		(uuid "0c3aea4f-978e-4232-8305-52d50a94dc18")
 		(at 95.597 129.188 -90)
@@ -990,7 +990,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "191be7a2-8ffc-4945-addc-965686136519")
 		(at 79.726 129.001 90)
@@ -1203,7 +1203,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1a8672f9-58cf-40b4-a863-1a8bcbce2ac5")
 		(at 145.4675 137.187 -90)
@@ -1416,7 +1416,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "EM_mainboard:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1c1ace08-c819-4a14-88f0-6b042186845b")
 		(at 89.78 115.721 180)
@@ -1705,7 +1705,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1cb522c8-d784-47e8-8921-11c3e2832812")
 		(at 88.024 134.065)
@@ -1918,7 +1918,7 @@
 			)
 		)
 	)
-	(footprint "AI8051U_48P_主板_V1.0kicad:HDR2X3-M"
+	(footprint "EM_mainboard:HDR2X3-M"
 		(layer "F.Cu")
 		(uuid "20f673c8-9158-43f0-93ce-032c4ef65b45")
 		(at 117.017 134.479 90)
@@ -2350,7 +2350,7 @@
 			(uuid "d75c6d1d-4403-428b-9c25-279c6e411eb4")
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "EM_mainboard:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "21946ad4-75f4-4587-9bd5-c42be083abad")
 		(at 73.056 102.207)
@@ -2629,7 +2629,7 @@
 			)
 		)
 	)
-	(footprint "STC32G12K128_CoreBoard:STC16H40K128_CoreBoard"
+	(footprint "EM_mainboard:STC16H40K128_CoreBoard"
 		(layer "F.Cu")
 		(uuid "22d70073-8062-48f2-8ed4-7e2c1e08184d")
 		(at 116.685 100.044)
@@ -3663,7 +3663,7 @@
 			(uuid "d3064595-4d61-4471-8a2c-a9110b69af9a")
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "EM_mainboard:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "29056688-5d45-4f3b-ad61-a0aaf0e2cca2")
 		(at 73.096 91.264)
@@ -3942,7 +3942,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2e0ee9eb-567b-4640-b2a9-04e69d4d76ea")
 		(at 110.314 107.743)
@@ -4155,7 +4155,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "EM_mainboard:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "3289a1f2-abda-4693-88f5-cda6715a5c24")
 		(at 152.446 113.628 180)
@@ -4434,7 +4434,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "36b4afaa-9ca7-42bb-9382-4ccaf6ee4458")
 		(at 113.46 98.717)
@@ -4647,7 +4647,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:MountingHole_3.2mm_M3"
+	(footprint "EM_mainboard:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "3a591799-5d92-4040-8ce5-7099a61ca5ae")
 		(at 157.158 79.448)
@@ -4758,7 +4758,7 @@
 			(uuid "76a76cbb-9121-47db-838d-d42b02debc93")
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+	(footprint "EM_mainboard:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3c082348-b63e-4b1f-a77e-432b91046379")
 		(at 98.886 116.886 180)
@@ -5026,7 +5026,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "40a0ec06-9b0f-4019-9518-6d09a13912b7")
 		(at 110.351 110.674)
@@ -5239,7 +5239,7 @@
 			)
 		)
 	)
-	(footprint "AI8051U_48P_主板_V1.0kicad:HDR2X4-F"
+	(footprint "EM_mainboard:HDR2X4-F"
 		(layer "F.Cu")
 		(uuid "40ae522b-62ef-48ab-9427-f9e5378bdbf7")
 		(at 156.715 92.053 90)
@@ -5493,11 +5493,11 @@
 						(xy 155.874392 88.057259) (xy 155.867624 88.088252) (xy 155.854027 88.121403) (xy 155.834288 88.151314)
 						(xy 155.812482 88.174373) (xy 155.786587 88.194244) (xy 155.757023 88.210004) (xy 155.723792 88.221653)
 						(xy 155.693298 88.22822) (xy 155.660256 88.231931) (xy 155.631989 88.232845) (xy 155.610755 88.232537)
-						(xy 155.610755 88.150677) (xy 155.674766 88.150677) (xy 155.706458 88.146237) (xy 155.738647 88.136744)
-						(xy 155.765551 88.121287) (xy 155.788312 88.0986) (xy 155.804865 88.06931) (xy 155.8119 88.039275)
-						(xy 155.812636 88.024809) (xy 155.80897 87.992913) (xy 155.796467 87.961681) (xy 155.777401 87.936791)
-						(xy 155.775091 87.934485) (xy 155.749161 87.914863) (xy 155.718302 87.901583) (xy 155.686315 87.895052)
-						(xy 155.674766 87.894017) (xy 155.674766 88.150677) (xy 155.610755 88.150677) (xy 155.610755 87.889708)
+						(xy 155.610755 87.894017) (xy 155.674766 87.894017) (xy 155.674766 88.150677) (xy 155.706458 88.146237)
+						(xy 155.738647 88.136744) (xy 155.765551 88.121287) (xy 155.788312 88.0986) (xy 155.804865 88.06931)
+						(xy 155.8119 88.039275) (xy 155.812636 88.024809) (xy 155.80897 87.992913) (xy 155.796467 87.961681)
+						(xy 155.777401 87.936791) (xy 155.775091 87.934485) (xy 155.749161 87.914863) (xy 155.718302 87.901583)
+						(xy 155.686315 87.895052) (xy 155.674766 87.894017) (xy 155.610755 87.894017) (xy 155.610755 87.889708)
 						(xy 155.580031 87.893228) (xy 155.548975 87.901253) (xy 155.51921 87.915386) (xy 155.49735 87.932485)
 						(xy 155.476659 87.958472) (xy 155.463631 87.988156) (xy 155.458266 88.021536) (xy 155.458113 88.028655)
 						(xy 155.461795 88.061354) (xy 155.473997 88.091968) (xy 155.480424 88.101745) (xy 155.502946 88.124292)
@@ -5523,11 +5523,11 @@
 						(xy 155.874392 88.743533) (xy 155.867624 88.774526) (xy 155.854027 88.807677) (xy 155.834288 88.837587)
 						(xy 155.812482 88.860647) (xy 155.786587 88.880518) (xy 155.757023 88.896278) (xy 155.723792 88.907927)
 						(xy 155.693298 88.914493) (xy 155.660256 88.918205) (xy 155.631989 88.919118) (xy 155.610755 88.918811)
-						(xy 155.610755 88.83695) (xy 155.674766 88.83695) (xy 155.706458 88.83251) (xy 155.738647 88.823018)
-						(xy 155.765551 88.807561) (xy 155.788312 88.784874) (xy 155.804865 88.755584) (xy 155.8119 88.725549)
-						(xy 155.812636 88.711082) (xy 155.80897 88.679187) (xy 155.796467 88.647954) (xy 155.777401 88.623064)
-						(xy 155.775091 88.620759) (xy 155.749161 88.601137) (xy 155.718302 88.587856) (xy 155.686315 88.581326)
-						(xy 155.674766 88.58029) (xy 155.674766 88.83695) (xy 155.610755 88.83695) (xy 155.610755 88.575982)
+						(xy 155.610755 88.58029) (xy 155.674766 88.58029) (xy 155.674766 88.83695) (xy 155.706458 88.83251)
+						(xy 155.738647 88.823018) (xy 155.765551 88.807561) (xy 155.788312 88.784874) (xy 155.804865 88.755584)
+						(xy 155.8119 88.725549) (xy 155.812636 88.711082) (xy 155.80897 88.679187) (xy 155.796467 88.647954)
+						(xy 155.777401 88.623064) (xy 155.775091 88.620759) (xy 155.749161 88.601137) (xy 155.718302 88.587856)
+						(xy 155.686315 88.581326) (xy 155.674766 88.58029) (xy 155.610755 88.58029) (xy 155.610755 88.575982)
 						(xy 155.580031 88.579501) (xy 155.548975 88.587527) (xy 155.51921 88.601659) (xy 155.49735 88.618758)
 						(xy 155.476659 88.644745) (xy 155.463631 88.674429) (xy 155.458266 88.707809) (xy 155.458113 88.714929)
 						(xy 155.461795 88.747628) (xy 155.473997 88.778242) (xy 155.480424 88.788019) (xy 155.502946 88.810566)
@@ -5693,7 +5693,7 @@
 			(uuid "ce7b63ad-3c41-4bbd-8c48-5b88616ad6f8")
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "EM_mainboard:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4115cc75-0a54-495b-ae7b-f82fb08ec927")
 		(at 83.638 117.0975 -90)
@@ -5928,7 +5928,7 @@
 			)
 		)
 	)
-	(footprint "LM1117-3.3:SOT230"
+	(footprint "EM_mainboard:SOT230"
 		(layer "F.Cu")
 		(uuid "426a06f1-28d2-483a-b8aa-fb8691c1c259")
 		(at 73.519 136.98 90)
@@ -6431,7 +6431,7 @@
 			(uuid "da6e2936-c35b-4267-aa0b-96cdd4ab128c")
 		)
 	)
-	(footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+	(footprint "EM_mainboard:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 		(layer "F.Cu")
 		(uuid "44820d25-7146-4221-ad7c-aae1c6df0b3a")
 		(at 70.578 128.121 90)
@@ -6730,7 +6730,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4847aecd-b60f-48e8-967c-0650718367bb")
 		(at 84.404 126.251)
@@ -6943,7 +6943,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "EM_mainboard:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "4884c952-583f-4982-af23-7eab5c89da2c")
 		(at 152.482 119.07 180)
@@ -7222,7 +7222,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:MountingHole_3.2mm_M3"
+	(footprint "EM_mainboard:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "49c33eb2-0cdb-4e17-9319-cf54cf476e78")
 		(at 68.294 145.096)
@@ -7333,7 +7333,7 @@
 			(uuid "d66c6725-665e-4109-bdb7-cd656b21e806")
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4c6566d9-f226-4d21-ae41-cd658cd179f1")
 		(at 72.575 141.942 180)
@@ -7546,7 +7546,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+	(footprint "EM_mainboard:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4eca51c0-2fea-409e-9bae-852289622ab8")
 		(at 77.161 117.994)
@@ -7877,7 +7877,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "516ae850-f23f-4bbe-b401-9757a1b70ca1")
 		(at 80.294 142.203 90)
@@ -8090,7 +8090,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:SW_Push"
+	(footprint "EM_mainboard:SW_Push"
 		(layer "F.Cu")
 		(uuid "52af15d1-95ad-42cd-8f8f-5b80da4292ef")
 		(at 145.2345 143.646 90)
@@ -8257,7 +8257,7 @@
 			)
 		)
 	)
-	(footprint "LM1117-3.3:SOT230"
+	(footprint "EM_mainboard:SOT230"
 		(layer "F.Cu")
 		(uuid "5b99030e-688b-49b1-a349-113ff40b1965")
 		(at 85.677 142.967)
@@ -8761,7 +8761,7 @@
 			(uuid "793e93b7-14eb-4517-a6b1-1faf42f904f4")
 		)
 	)
-	(footprint "LOGO"
+	(footprint "EM_mainboard:LOGO"
 		(layer "F.Cu")
 		(uuid "5d119083-6472-4e45-af3c-cbc5aacac1ee")
 		(at 142.750093 97.474454)
@@ -9637,7 +9637,7 @@
 			(uuid "f18fe535-50d7-441f-8d31-d84b0d54ec09")
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5d6342de-a350-401d-92a5-dd8aed1261b9")
 		(at 110.645 142.532 180)
@@ -9850,7 +9850,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+	(footprint "EM_mainboard:PinHeader_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "630effe4-e5c9-481e-af24-ed7ee79ffe17")
 		(at 88.222 81.606 90)
@@ -10162,7 +10162,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "68e7d4ec-21e1-4f3d-bb34-c958d4f89a51")
 		(at 133.2635 137.117 -90)
@@ -10375,7 +10375,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "F.Cu")
 		(uuid "6a9f86c9-2a3e-4a88-a094-96cdcda439f6")
 		(at 87.224 123.515)
@@ -10655,7 +10655,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6ed621a8-ae67-4931-a7d4-4a6f19c1d0de")
 		(at 68.201 105.725)
@@ -10868,7 +10868,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "774a0fa5-5a44-4c01-aa22-e24551cfa06d")
 		(at 81.826 137.71 -90)
@@ -11081,7 +11081,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:SW_Push"
+	(footprint "EM_mainboard:SW_Push"
 		(layer "F.Cu")
 		(uuid "78defe04-d67a-4245-8fef-c36212559d47")
 		(at 133.2755 143.669 90)
@@ -11248,7 +11248,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+	(footprint "EM_mainboard:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "7e7f3e2f-b770-4672-a5c1-2b5d221f18e8")
 		(at 105.83 144.132 180)
@@ -11579,7 +11579,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "80eebc3d-7f5e-4db3-8a19-8ed3a58b2ead")
 		(at 79.078 132.568 180)
@@ -11792,7 +11792,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "823ecf80-de17-425a-80a4-466c69b2e819")
 		(at 128.2495 137.131 -90)
@@ -12005,7 +12005,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "EM_mainboard:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "84ece869-89c8-4482-9af9-0ed5e5580f1e")
 		(at 73.04 96.772)
@@ -12284,7 +12284,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "87a54021-0521-4939-9f03-1a19f3e73193")
 		(at 73.481 144.223 90)
@@ -12497,7 +12497,7 @@
 			)
 		)
 	)
-	(footprint "spdtsw:toggle_switch_small"
+	(footprint "EM_mainboard:toggle_switch_small"
 		(layer "F.Cu")
 		(uuid "8871f0db-248a-4961-97a0-9fb7c0b9be46")
 		(at 69.664 106.765 -90)
@@ -12638,7 +12638,7 @@
 			(uuid "a3d4865a-18bb-4bbd-8286-78535fa22736")
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:CP_Elec_8x10.5"
+	(footprint "EM_mainboard:CP_Elec_8x10.5"
 		(layer "F.Cu")
 		(uuid "8df09f8d-bdd7-41b6-b142-fe4a47b37c12")
 		(at 95.607 139.607 -90)
@@ -13079,7 +13079,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "EM_mainboard:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "8fbd1e3e-e8ba-4d70-9402-a30b93cbc134")
 		(at 73.127 85.819)
@@ -13358,7 +13358,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "91b172a6-5edd-4827-927b-9c239eece4c4")
 		(at 89.853 131.099)
@@ -13571,7 +13571,7 @@
 			)
 		)
 	)
-	(footprint "AI8051U_48P_主板_V1.0:SOT-23"
+	(footprint "EM_mainboard:SOT-23"
 		(layer "F.Cu")
 		(uuid "91df4761-ddac-4fdd-a028-a74c13277317")
 		(at 114.066 108.705)
@@ -13916,7 +13916,7 @@
 			(uuid "df4c55f8-465b-4bda-b64e-7e181d6ee258")
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "930f539a-2142-404b-bdef-ffafbd0eedff")
 		(at 139.516 137.269 -90)
@@ -14129,7 +14129,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9b27e85c-d598-4c92-8bab-03a637b89943")
 		(at 89.803 132.567 180)
@@ -14342,7 +14342,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+	(footprint "EM_mainboard:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9fd10ea6-7c25-4e6a-9d19-01d7f5974173")
 		(at 117.366 144.806 180)
@@ -14673,7 +14673,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "EM_mainboard:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "a07c51b0-3850-4734-95b5-7551e92c84f9")
 		(at 152.436 130.375 180)
@@ -14952,7 +14952,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b35a7624-6679-4def-ad8e-8c1fb0c90f7d")
 		(at 82.87 114.479)
@@ -15165,7 +15165,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:SW_Push"
+	(footprint "EM_mainboard:SW_Push"
 		(layer "F.Cu")
 		(uuid "b7394521-bb7d-4be9-9c0a-a12d995076ab")
 		(at 127.529 143.758 90)
@@ -15332,7 +15332,7 @@
 			)
 		)
 	)
-	(footprint "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
+	(footprint "EM_mainboard:TI_SO-PowerPAD-8_ThermalVias"
 		(layer "F.Cu")
 		(uuid "b7f03e1b-90d2-49ed-a8c8-47474b0caaeb")
 		(at 84.425 130.499)
@@ -15737,7 +15737,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b800ca35-f3f2-4091-87f5-3e55308475b3")
 		(at 131.1115 137.13 -90)
@@ -15950,7 +15950,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "EM_mainboard:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "bbbdaace-3fcc-4333-8461-1deb5b3eb83d")
 		(at 77.953 95.077 180)
@@ -16240,7 +16240,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "be60e180-2245-4b0e-93b9-8bdce7683931")
 		(at 85.874 137.715 -90)
@@ -16453,7 +16453,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "EM_mainboard:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c123e344-e9f8-454a-aa64-81c453711f34")
 		(at 109.888 139.986 90)
@@ -16688,7 +16688,7 @@
 			)
 		)
 	)
-	(footprint "LOGO"
+	(footprint "EM_mainboard:LOGO"
 		(layer "F.Cu")
 		(uuid "c21a1ac1-0d67-4d50-bb14-9ea38a5a76c6")
 		(at 143.804093 90.689454)
@@ -17337,7 +17337,7 @@
 			(uuid "1bf96968-7c7e-4e59-b1c4-ede5b04a2f48")
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:MountingHole_3.2mm_M3"
+	(footprint "EM_mainboard:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "ca4739ea-8e44-449c-8be3-b00b7390cbaa")
 		(at 69.372 79.231)
@@ -17448,7 +17448,7 @@
 			(uuid "55103209-6569-4f52-8be3-0bd64b26b073")
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "EM_mainboard:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "ccf9b59a-cc22-4588-aa93-7d75b972dcc7")
 		(at 152.401 124.793 180)
@@ -17727,7 +17727,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cd53b4be-8b96-434f-8ccf-42b2c90bf738")
 		(at 95.251 105.373)
@@ -17940,7 +17940,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d12908f7-746d-4a7f-9c38-25ea89c137b1")
 		(at 91.437 134.128)
@@ -18153,7 +18153,7 @@
 			)
 		)
 	)
-	(footprint "AI8051U_48P_主板_V1.0:BEEP 9x5.5mm"
+	(footprint "EM_mainboard:BEEP 9x5.5mm"
 		(layer "F.Cu")
 		(uuid "d5ea1358-5448-4cd4-8ad9-2a5590937ed7")
 		(at 119.771 112.87 180)
@@ -18318,17 +18318,17 @@
 						(xy 119.917521 112.874781) (xy 119.884363 112.872141) (xy 119.852981 112.864221) (xy 119.833044 112.856008)
 						(xy 119.806242 112.840674) (xy 119.781317 112.819611) (xy 119.772726 112.809538) (xy 119.756225 112.782594)
 						(xy 119.744383 112.752721) (xy 119.740721 112.739988) (xy 119.734588 112.709083) (xy 119.731222 112.677106)
-						(xy 119.729992 112.645167) (xy 119.72995 112.637662) (xy 119.803809 112.637662) (xy 119.804398 112.668583)
-						(xy 119.806886 112.694749) (xy 119.815233 112.724399) (xy 119.824889 112.743219) (xy 119.846354 112.76582)
-						(xy 119.861511 112.775225) (xy 119.890977 112.785427) (xy 119.917059 112.787842) (xy 119.94944 112.783853)
-						(xy 119.979359 112.770802) (xy 119.98107 112.769685) (xy 120.004228 112.747989) (xy 120.019231 112.719215)
-						(xy 120.026404 112.688387) (xy 120.029617 112.654963) (xy 120.03031 112.62643) (xy 120.03031 112.616889)
-						(xy 120.104169 112.616889) (xy 120.10489 112.648704) (xy 120.107984 112.680807) (xy 120.111555 112.696903)
-						(xy 120.124211 112.725062) (xy 120.143098 112.745219) (xy 120.17158 112.758284) (xy 120.198647 112.761376)
-						(xy 120.230154 112.75712) (xy 120.254349 112.746297) (xy 120.277538 112.723779) (xy 120.287277 112.703058)
-						(xy 120.293378 112.670732) (xy 120.295644 112.63823) (xy 120.296202 112.60658) (xy 120.296202 112.479789)
-						(xy 120.104169 112.479789) (xy 120.104169 112.616889) (xy 120.03031 112.616889) (xy 120.03031 112.479789)
-						(xy 119.803809 112.479789) (xy 119.803809 112.637662) (xy 119.72995 112.637662) (xy 119.72995 112.395774)
+						(xy 119.729992 112.645167) (xy 119.72995 112.637662) (xy 119.72995 112.479789) (xy 119.803809 112.479789)
+						(xy 119.803809 112.637662) (xy 119.804398 112.668583) (xy 119.806886 112.694749) (xy 119.815233 112.724399)
+						(xy 119.824889 112.743219) (xy 119.846354 112.76582) (xy 119.861511 112.775225) (xy 119.890977 112.785427)
+						(xy 119.917059 112.787842) (xy 119.94944 112.783853) (xy 119.979359 112.770802) (xy 119.98107 112.769685)
+						(xy 120.004228 112.747989) (xy 120.019231 112.719215) (xy 120.026404 112.688387) (xy 120.029617 112.654963)
+						(xy 120.03031 112.62643) (xy 120.03031 112.479789) (xy 120.104169 112.479789) (xy 120.104169 112.616889)
+						(xy 120.10489 112.648704) (xy 120.107984 112.680807) (xy 120.111555 112.696903) (xy 120.124211 112.725062)
+						(xy 120.143098 112.745219) (xy 120.17158 112.758284) (xy 120.198647 112.761376) (xy 120.230154 112.75712)
+						(xy 120.254349 112.746297) (xy 120.277538 112.723779) (xy 120.287277 112.703058) (xy 120.293378 112.670732)
+						(xy 120.295644 112.63823) (xy 120.296202 112.60658) (xy 120.296202 112.479789) (xy 120.104169 112.479789)
+						(xy 120.03031 112.479789) (xy 119.803809 112.479789) (xy 119.72995 112.479789) (xy 119.72995 112.395774)
 						(xy 120.370061 112.395774)
 					)
 				)
@@ -18368,7 +18368,7 @@
 			(uuid "a28b3b42-8524-4e76-9700-5147f510ecaa")
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "da460c47-28ce-4d4d-851d-eae75cebccb3")
 		(at 136.7085 137.163 -90)
@@ -18581,7 +18581,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+	(footprint "EM_mainboard:PinSocket_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "da761eaa-ef64-47ae-9d3d-d208844c7c5d")
 		(at 142.104 116.056 180)
@@ -18882,7 +18882,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "dbb5d7b6-ba12-4391-82e1-263ac8fc2ac6")
 		(at 77.216 129.001 90)
@@ -19095,7 +19095,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+	(footprint "EM_mainboard:PinHeader_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "dfe44688-71b2-434b-ba9d-a6cc9f15edea")
 		(at 134.491 80.367 90)
@@ -19407,7 +19407,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "EM_mainboard:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e4e345e8-3a78-4e30-a73d-48dd8e59a93a")
 		(at 71.584 105.746)
@@ -19642,7 +19642,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ebfbc441-a1fd-473b-8379-5898f7d000b9")
 		(at 142.181 137.201 -90)
@@ -19855,7 +19855,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f142b98c-d2cc-40e5-927f-1e1fce997ec8")
 		(at 89.579 140.299 180)
@@ -20069,7 +20069,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:SW_Push"
+	(footprint "EM_mainboard:SW_Push"
 		(layer "F.Cu")
 		(uuid "f421ebdb-d69f-43e9-8b92-138648922bee")
 		(at 139.0045 143.584 90)
@@ -20236,7 +20236,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f4c5fcbd-61d5-46f9-9552-97b50e5aa277")
 		(at 148.8075 137.166 90)
@@ -20449,7 +20449,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f6fe930f-0278-46a3-b0ff-a7a32a448b2e")
 		(at 97.046 108.429)
@@ -20662,7 +20662,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ff797d43-fc01-4577-99e0-274b25970c56")
 		(at 89.532 136.723 180)
@@ -20875,7 +20875,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:MountingHole_3.2mm_M3"
+	(footprint "EM_mainboard:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "ff7a928b-32ee-4e20-ad1e-07ee0ebe1c4e")
 		(at 156.198 144.84)
@@ -20986,7 +20986,7 @@
 			(uuid "869f88aa-750a-4928-9b7c-4f300c920a53")
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "0109fa08-c728-4ac2-9acc-fcbbc1090777")
 		(at 136.297 95.168 180)
@@ -21205,7 +21205,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "020af1d2-97db-4900-b266-9776b5c422aa")
 		(at 150.649 105.43 90)
@@ -21491,7 +21491,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "05e3f1f2-2343-461d-aba9-b771a8b22cbe")
 		(at 154.31 105.482 -90)
@@ -21777,7 +21777,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "060a3e9f-016f-41dd-8509-a883e231808b")
 		(at 138.699 94.438 -90)
@@ -21996,7 +21996,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "08f627b9-e501-4ec7-9bd1-5fce5a8b3898")
 		(at 153.273 100.171 -90)
@@ -22215,7 +22215,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "0d86ab92-5cde-4fd2-b766-c59a483160c5")
 		(at 83.85 95.185)
@@ -22434,7 +22434,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "15f56775-bca0-45d5-837f-4ab033f66655")
 		(at 82.936 104.466 -90)
@@ -22720,7 +22720,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "16a9079c-7928-4584-bcc4-ea9d3aa9463e")
 		(at 153.631 95.053 180)
@@ -22939,7 +22939,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "18932a91-0fd6-46d0-98c2-322ddc65cb88")
 		(at 86.005 100.588 90)
@@ -23158,7 +23158,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "197ac352-7772-45e8-87fb-9b4b085516da")
 		(at 83.621 96.715)
@@ -23377,7 +23377,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "1cde9d06-5b3a-49b3-9b40-660636db18fa")
 		(at 145.682 88.812)
@@ -23663,7 +23663,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "1cea0b4b-aab1-41f6-aff8-52a7ef041486")
 		(at 136.323 96.722 180)
@@ -23882,7 +23882,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "285a3da3-aa83-4b3f-92f9-e9b48562790c")
 		(at 101.474 88.9 -90)
@@ -24168,7 +24168,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "2eb86eab-c4b7-4f8d-8d7e-177367ca486a")
 		(at 134.961 89.171 -90)
@@ -24454,7 +24454,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "34be4514-9621-4f2e-8948-19e4c5843c99")
 		(at 111.411 88.497 180)
@@ -24673,7 +24673,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "3eefd5cd-be71-4b28-a512-907133e26507")
 		(at 140.941 95.129)
@@ -24892,7 +24892,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "42c8f6e0-bf82-42fc-8683-22eebbd92c63")
 		(at 101.435 97.25 -90)
@@ -25111,7 +25111,7 @@
 			)
 		)
 	)
-	(footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+	(footprint "EM_mainboard:TSSOP-14_4.4x5mm_P0.65mm"
 		(layer "B.Cu")
 		(uuid "46fc3f19-a847-4ede-8b73-1c05d637ed2e")
 		(at 90.701 97.3895 180)
@@ -25491,7 +25491,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "485ae0f8-4c9b-43a2-8929-4afb625340a1")
 		(at 139.451 98.243)
@@ -25710,7 +25710,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "4ac5d258-7bef-453c-b882-fb37af220f19")
 		(at 96.392 84.633)
@@ -25929,7 +25929,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "4cee4a30-9cb0-4ba0-8887-46f2e10aa8c1")
 		(at 99.1075 94.165 -90)
@@ -26148,7 +26148,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "52d761e8-d417-4751-bf01-a0b231bff8a0")
 		(at 137.017 102.596 -90)
@@ -26434,7 +26434,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "5c0d5036-7d41-47c6-b30d-6cb01096240b")
 		(at 147.193 83.259 90)
@@ -26653,7 +26653,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "5c205fb8-2097-4a1e-93d8-8356e3e801d5")
 		(at 95.767 94.179 -90)
@@ -26872,7 +26872,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "5f034dc3-302f-470b-ad92-6b6dc22eeb42")
 		(at 154.118 97.663 180)
@@ -27091,7 +27091,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "69997bce-09f2-4794-a565-35627e70e075")
 		(at 138.787 89.267 90)
@@ -27377,7 +27377,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "6a81dd05-8163-47f9-b7df-b4a2ddc6ba3e")
 		(at 133.166 93.703 180)
@@ -27596,7 +27596,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "6c5b41b6-fdbd-4f03-bf89-53c12d0ba479")
 		(at 81.377 90.86 90)
@@ -27882,7 +27882,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "6fbe2ed2-9551-4723-b581-7fc21faab8a7")
 		(at 90.734 87.805)
@@ -28101,7 +28101,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "7315e65d-5587-42f8-a105-a1e0e40698ca")
 		(at 151.577 109.825)
@@ -28320,7 +28320,7 @@
 			)
 		)
 	)
-	(footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+	(footprint "EM_mainboard:TSSOP-14_4.4x5mm_P0.65mm"
 		(layer "B.Cu")
 		(uuid "7b372547-f1b4-4fff-b209-e4188170a529")
 		(at 146.8945 96.918 180)
@@ -28700,7 +28700,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "7f8a822a-9c73-4912-bc8c-09065719f490")
 		(at 101.593 84.445 180)
@@ -28919,7 +28919,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "8254b949-cdaf-491f-8d6a-65ae8ecdffa3")
 		(at 96.498 88.903 90)
@@ -29205,7 +29205,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "83fbbe22-9a8f-465f-975e-d199e5bc3b0e")
 		(at 102.992 97.203 -90)
@@ -29424,7 +29424,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "8a617e23-137f-47bb-bdf1-e6b95e1279e5")
 		(at 146.093 108.372 -90)
@@ -29643,7 +29643,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "9010dfc0-8ff8-43af-9038-20146e86f056")
 		(at 147.584 108.405 -90)
@@ -29862,7 +29862,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "91d4448a-271d-4536-b3a6-0eca8ab6eaea")
 		(at 79.659 99.292 -90)
@@ -30081,7 +30081,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "97398c92-5b7c-41a0-9639-8e521dd74eda")
 		(at 154.806 100.128 -90)
@@ -30300,7 +30300,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "97606e58-0a08-4cb5-a01d-71948f4cfa32")
 		(at 145.751 92.322 180)
@@ -30586,7 +30586,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "9a31245b-04fc-40b9-8ea8-8b90255ec29e")
 		(at 80.883 83.041)
@@ -30805,7 +30805,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "9f7da594-9418-4ca0-b9c2-5ec9ef7cab24")
 		(at 133.0815 95.536 180)
@@ -31024,7 +31024,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "a3b6e814-f4be-4cc8-a8b2-3f694a93af38")
 		(at 98.669 96.502 180)
@@ -31243,7 +31243,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "a44378c6-95ea-4d73-8fd1-55c508e44ba6")
 		(at 79.686 96.009 -90)
@@ -31462,7 +31462,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "ab1a274c-be35-41d4-9e39-c397cd37d5a7")
 		(at 142.105 83.413 90)
@@ -31681,7 +31681,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "aca7c6cb-9720-4ae7-88c5-5925dbe130f2")
 		(at 97.343 94.064 -90)
@@ -31900,7 +31900,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "b5e55030-7245-4941-a6a9-cd46040499de")
 		(at 102.455 105.234 -90)
@@ -32186,7 +32186,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "bff2b2ca-d1b3-4c6d-a46c-9a800a011e61")
 		(at 121.791 110.894)
@@ -32405,7 +32405,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "c19b6e85-a429-480c-82e2-903616a79986")
 		(at 134.44 83.321 90)
@@ -32624,7 +32624,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "c272ddd0-9425-4b8c-b167-72def779cd3b")
 		(at 96.348 98.975 90)
@@ -32843,7 +32843,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "ce17feb1-f015-4c0d-9864-382fd680cd79")
 		(at 98.86 101.022 -90)
@@ -33129,7 +33129,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "cf019a19-28ba-4e02-8ac5-1df1a9d94f1f")
 		(at 100.638 94.041 -90)
@@ -33348,7 +33348,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "df5c2b2a-a8f0-4cf4-ad59-2a00ddeaaab9")
 		(at 139.506 96.763)
@@ -33567,7 +33567,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "df7701f5-fad3-4330-968a-846fa321ad88")
 		(at 79.262 108.175 -90)
@@ -33853,7 +33853,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "f2cee0a6-4073-4ec4-96f5-5eed71787af6")
 		(at 133.37 106.42 -90)
@@ -34139,7 +34139,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "f596566c-726b-4044-a648-6ed13d53fd2f")
 		(at 151.519 99.172 90)
@@ -34358,7 +34358,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "f7360736-de8a-44fa-8cb6-1bfb392e0b52")
 		(at 81.291 99.32 -90)
@@ -34577,7 +34577,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:C_0603_1608Metric"
+	(footprint "EM_mainboard:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "f8173e70-14d4-4044-8d06-0ac88c64eb13")
 		(at 139.613 83.532 90)
@@ -34796,7 +34796,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "fd779390-6ac8-408a-81f4-c4425e679f79")
 		(at 83.641 98.538)
@@ -35015,7 +35015,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "EM_mainboard:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "fd793b75-9585-43bf-8be1-5750f2f9c30e")
 		(at 81.207 96.033 -90)
@@ -35234,7 +35234,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:D_SMA"
+	(footprint "EM_mainboard:D_SMA"
 		(layer "B.Cu")
 		(uuid "ffd9e8d7-3ccc-4572-938f-6ddd27d7a240")
 		(at 84.903 86.432 135)
