@@ -100,7 +100,7 @@
 	(net 18 "unconnected-(J2-SHIELD-PadS1)_1")
 	(net 19 "unconnected-(J2-SHIELD-PadS1)_2")
 	(net 20 "unconnected-(J2-SHIELD-PadS1)_3")
-	(footprint "OptoDevice:OnSemi_CASE100CY"
+	(footprint "forklift_sensor_board:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "0b7dea01-9bf8-42d2-93c0-937ee6b171df")
 		(at 80.567 138.297)
@@ -355,7 +355,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "108bee06-de9d-4530-a1ff-2ef797bf39ed")
 		(at 108.95 132.716 -90)
@@ -568,7 +568,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1ed4a88e-7e20-4718-97d2-91b6997e7ca6")
 		(at 89.427 132.747 -90)
@@ -781,7 +781,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "31fd3b18-ac58-4647-a996-ee88130dbb56")
 		(at 79.615 132.714 -90)
@@ -994,7 +994,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "332def22-7c94-4796-841e-d6e6d10a8d2b")
 		(at 80.517 129.834)
@@ -1207,7 +1207,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4c9ba11f-cf6d-4b7f-aa75-6218689fc514")
 		(at 100.041 129.834)
@@ -1420,7 +1420,7 @@
 			)
 		)
 	)
-	(footprint "OptoDevice:OnSemi_CASE100CY"
+	(footprint "forklift_sensor_board:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "545e2589-6715-435f-817f-d487e8ec2cdf")
 		(at 70.805 138.297)
@@ -1675,7 +1675,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "555bc973-54d1-4d24-b3af-44f1bc05912c")
 		(at 119.565 129.834)
@@ -1888,7 +1888,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5b83cd09-c502-4b6c-9a32-0d54eb5c6da3")
 		(at 69.936 132.648 -90)
@@ -2101,7 +2101,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:MountingHole_3.2mm_M3"
+	(footprint "forklift_sensor_board:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "6ed7d9ad-4bed-4dd9-8164-48917a6ff062")
 		(at 121.43 111.483)
@@ -2212,7 +2212,7 @@
 			(uuid "0563e3fc-a99c-4cdb-8c03-4c4a80fdacd4")
 		)
 	)
-	(footprint "OptoDevice:OnSemi_CASE100CY"
+	(footprint "forklift_sensor_board:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "7104eb06-de04-4848-96a1-d89016e937f9")
 		(at 90.2915 138.297)
@@ -2467,7 +2467,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "82d7435c-05f7-46a9-8658-85f1b4803f8a")
 		(at 70.755 129.834)
@@ -2680,7 +2680,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "86ed38d5-5355-47ef-b80f-9240b052a4a2")
 		(at 128.474 132.731 -90)
@@ -2893,7 +2893,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8e723d4f-b7b4-465f-ad5f-1506754472be")
 		(at 118.661 132.78 -90)
@@ -3106,7 +3106,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9a331f24-a6bb-4cdd-8ab8-0a942d6577cd")
 		(at 90.279 129.834)
@@ -3319,7 +3319,7 @@
 			)
 		)
 	)
-	(footprint "OptoDevice:OnSemi_CASE100CY"
+	(footprint "forklift_sensor_board:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "a66b72f1-1c1d-462d-b382-932ac9c77dbc")
 		(at 129.302 138.297)
@@ -3574,7 +3574,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "afe691ac-9a59-422a-949b-8c73eaa63b56")
 		(at 109.803 129.834)
@@ -3787,7 +3787,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b6f4429c-a40a-4a0d-b78e-81f46687df66")
 		(at 129.327 129.834)
@@ -4000,7 +4000,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:MountingHole_3.2mm_M3"
+	(footprint "forklift_sensor_board:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "d90960f6-36fa-41b1-b37f-7fa5c595007b")
 		(at 78.445 111.483)
@@ -4111,7 +4111,7 @@
 			(uuid "2e910c07-c55f-4575-9875-9aa3517bca57")
 		)
 	)
-	(footprint "OptoDevice:OnSemi_CASE100CY"
+	(footprint "forklift_sensor_board:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "db5f6ad3-fa2f-4a78-ad55-87d3c2ae8545")
 		(at 100.091 138.297)
@@ -4366,7 +4366,7 @@
 			)
 		)
 	)
-	(footprint "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+	(footprint "forklift_sensor_board:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "df1ef855-dff3-43d5-baff-15c750e894fd")
 		(at 99.123 132.731 -90)
@@ -4579,7 +4579,7 @@
 			)
 		)
 	)
-	(footprint "OptoDevice:OnSemi_CASE100CY"
+	(footprint "forklift_sensor_board:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "eaf02605-81a7-4444-aab5-586ef7877e14")
 		(at 109.8155 138.297)
@@ -4834,7 +4834,7 @@
 			)
 		)
 	)
-	(footprint "OptoDevice:OnSemi_CASE100CY"
+	(footprint "forklift_sensor_board:OnSemi_CASE100CY"
 		(layer "F.Cu")
 		(uuid "fde39741-6a1b-473f-a5f2-383d77694487")
 		(at 119.54 138.297)
@@ -5089,7 +5089,7 @@
 			)
 		)
 	)
-	(footprint "FFC2A32-10-T:GCT_FFC2A32-10-T"
+	(footprint "forklift_sensor_board:GCT_FFC2A32-10-T"
 		(layer "B.Cu")
 		(uuid "08a9a179-4c61-4401-b3b4-76ffdfaece1f")
 		(at 99.86 112.438)

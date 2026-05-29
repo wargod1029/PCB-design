@@ -5,7 +5,7 @@
 	(uuid "7e11bd70-3059-48f0-9e9a-cb12c714f4ee")
 	(paper "A4")
 	(lib_symbols
-		(symbol "FFC2A32-10-T:FFC2A32-10-T"
+		(symbol "forklift_sensor_board:FFC2A32-10-T"
 			(pin_names
 				(offset 1.016)
 			)
@@ -444,7 +444,7 @@
 				)
 			)
 		)
-		(symbol "HKUST_RDC2024_Symbol_Lib:MountingHole"
+		(symbol "forklift_sensor_board:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -526,131 +526,7 @@
 				)
 			)
 		)
-		(symbol "HKUST_RDC2024_Symbol_Lib:R_Small_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Sensor_Proximity:QRE1113GR"
+		(symbol "forklift_sensor_board:QRE1113GR"
 			(pin_names
 				(offset 0.0254) hide)
 			(exclude_from_sim no)
@@ -1110,6 +986,130 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "forklift_sensor_board:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "HKUST_RDC2024_Footprint_Lib:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2417,7 +2417,7 @@
 		(uuid "fc08d006-8813-4e17-b2b4-3e966d80b93b")
 	)
 	(symbol
-		(lib_id "Sensor_Proximity:QRE1113GR")
+		(lib_id "forklift_sensor_board:QRE1113GR")
 		(at 39.37 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2491,7 +2491,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 85.09 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2693,7 +2693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Proximity:QRE1113GR")
+		(lib_id "forklift_sensor_board:QRE1113GR")
 		(at 93.98 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2767,7 +2767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 214.63 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2837,7 +2837,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Proximity:QRE1113GR")
+		(lib_id "forklift_sensor_board:QRE1113GR")
 		(at 121.92 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2911,7 +2911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:MountingHole")
+		(lib_id "forklift_sensor_board:MountingHole")
 		(at 198.12 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2975,7 +2975,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Proximity:QRE1113GR")
+		(lib_id "forklift_sensor_board:QRE1113GR")
 		(at 205.74 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3049,7 +3049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Proximity:QRE1113GR")
+		(lib_id "forklift_sensor_board:QRE1113GR")
 		(at 148.59 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3189,7 +3189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 157.48 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3324,7 +3324,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:MountingHole")
+		(lib_id "forklift_sensor_board:MountingHole")
 		(at 198.12 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3379,7 +3379,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/7e11bd70-3059-48f0-9e9a-cb12c714f4ee"
 					(reference "H1")
 					(unit 1)
@@ -3388,7 +3388,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Proximity:QRE1113GR")
+		(lib_id "forklift_sensor_board:QRE1113GR")
 		(at 67.31 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3462,7 +3462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 185.42 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3664,7 +3664,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 102.87 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3734,7 +3734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 139.7 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3804,7 +3804,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Proximity:QRE1113GR")
+		(lib_id "forklift_sensor_board:QRE1113GR")
 		(at 176.53 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3878,7 +3878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 58.42 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4014,7 +4014,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 48.26 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4084,7 +4084,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 196.85 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4154,7 +4154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FFC2A32-10-T:FFC2A32-10-T")
+		(lib_id "forklift_sensor_board:FFC2A32-10-T")
 		(at 127 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4370,7 +4370,7 @@
 			(uuid "78ba47c2-eb15-452b-8abd-21aa00119ff3")
 		)
 		(instances
-			(project ""
+			(project "sensor_board"
 				(path "/7e11bd70-3059-48f0-9e9a-cb12c714f4ee"
 					(reference "J2")
 					(unit 1)
@@ -4379,7 +4379,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 130.81 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4449,7 +4449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 30.48 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4519,7 +4519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 76.2 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4655,7 +4655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 113.03 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4725,7 +4725,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
+		(lib_id "forklift_sensor_board:R_Small_US")
 		(at 167.64 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)

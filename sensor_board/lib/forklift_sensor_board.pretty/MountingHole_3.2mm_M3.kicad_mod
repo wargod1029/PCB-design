@@ -1,0 +1,108 @@
+(footprint "MountingHole_3.2mm_M3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3")
+	(tags "mounting hole 3.2mm no annular m3")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f31c2425-ad06-4858-939e-ad45816efb19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(uuid "8e3806d1-76b3-412d-9937-6e3312b183c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "HKUST_RDC2024_Footprint_Lib:MountingHole_3.2mm_M3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fed56f3e-4d9d-4738-a1a9-567552e1dfe3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae57f7dc-eba0-40ea-8b0c-48117b0de6b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole without connection"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e26e3606-0c29-4a1a-a5f0-9a695e6b2a3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "118cfde4-ffa3-4bf8-9e09-b45a512ba96c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.45 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b9918b95-cb1f-4677-be52-d629cb957974")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2daa1d08-a1d4-40f8-b7c5-dfec49a1c2ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9e69e2f0-3732-40da-b970-367d378ce6d7")
+	)
+)

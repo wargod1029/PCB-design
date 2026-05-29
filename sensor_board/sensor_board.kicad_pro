@@ -514,7 +514,7 @@
       "plot": "gbr4/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "sensor_board.step",
       "svg": "",
       "vrml": ""
     },
