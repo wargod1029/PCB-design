@@ -13,15 +13,14 @@ Repository structure
 - `motor_driver_2.kicad_sch` — Schematic
 - `motor_driver_2.kicad_pro` — KiCad project file
 
-Electrical overview (fill with measured values)
+Electrical overview
 - Supply voltage: 8V - 24V
 - Motor current limit: 15A
-
 
 Connectors & pins
 - POWER: VIN, GND
 - MOTOR: M+, M-
-- CONTROL: PWM, EN, GND
+- CONTROL: PWMA, PWMB
 
 Fabrication notes
 - PCB thickness: 1.6 mm
@@ -29,7 +28,7 @@ Fabrication notes
 - Copper thickness: 1 oz external
 
 BOM
-- Use KiCad's BOM export (`bom` plugin) to generate an initial parts list.
+- Use KiCad's BOM export (`bom` plugin)
 
 KiCad / development notes
 - KiCad version used: 8.0
