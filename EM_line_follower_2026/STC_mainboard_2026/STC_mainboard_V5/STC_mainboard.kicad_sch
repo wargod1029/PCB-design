@@ -7998,16 +7998,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 340.36) (xy 288.29 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb183ee-12c7-43ed-9ec3-8ffecd83bcb0")
-	)
-	(wire
-		(pts
 			(xy 419.1 31.75) (xy 419.1 40.64)
 		)
 		(stroke
@@ -8408,7 +8398,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 340.36) (xy 278.13 340.36)
+			(xy 264.16 340.36) (xy 288.29 340.36)
 		)
 		(stroke
 			(width 0)
@@ -14022,73 +14012,6 @@
 			(project "STC_mainboard"
 				(path "/3dbd0099-64a2-40b8-9866-2cb85c958c5c"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HKUST_RDC2024_Symbol_Lib:R_Small_US")
-		(at 280.67 340.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e4d4ab5-06cb-47d5-beca-eda65163f39c")
-		(property "Reference" "R3"
-			(at 280.67 334.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 280.67 336.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "HKUST_RDC2025_Footprint_Lib:R_0603_1608Metric"
-			(at 280.67 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 280.67 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b58ac239-630b-4982-bf86-faea9ffa650e")
-		)
-		(pin "2"
-			(uuid "6f735919-4540-4f38-83a2-4c0a86960996")
-		)
-		(instances
-			(project "STC_mainboard"
-				(path "/3dbd0099-64a2-40b8-9866-2cb85c958c5c"
-					(reference "R3")
 					(unit 1)
 				)
 			)
