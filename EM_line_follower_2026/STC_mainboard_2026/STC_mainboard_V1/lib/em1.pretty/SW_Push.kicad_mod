@@ -1,0 +1,151 @@
+(footprint "SW_Push"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.499999 180)
+		(layer "F.SilkS")
+		(uuid "4a3be0d2-2854-4af4-851c-8a6750f8bd20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 0.21 -22.669999 180)
+		(layer "F.Fab")
+		(uuid "ef0ba505-da3c-4f58-b4b7-817fcfa7a209")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b1f81c3-dc77-4ea1-b2b7-c9c79706c538")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ece7d77-8400-4061-8806-2af36a0c7aaf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.048 1.777999)
+		(end 3.556 1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d137bf9-6114-4a7b-bcde-365427c448fd")
+	)
+	(fp_line
+		(start -3.048 2.920999)
+		(end -3.048 1.777999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a9f586c-ce37-4916-af7a-e767b2476260")
+	)
+	(fp_line
+		(start -3.048 5.334)
+		(end -3.048 4.191)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88bbf87e-e14d-41f1-a6a5-c1e88955b92f")
+	)
+	(fp_line
+		(start 3.556 1.778)
+		(end 3.556 2.921)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c86baf67-c066-4f22-8cee-246a27298426")
+	)
+	(fp_line
+		(start 3.556 5.334)
+		(end -3.048 5.334)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "450c98d8-2ceb-4d7b-90e2-8a21093c68a0")
+	)
+	(fp_line
+		(start 3.556 5.334)
+		(end 3.556 4.191)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf9051d9-8309-4e9e-8c31-cd1bdc4266dd")
+	)
+	(fp_poly
+		(pts
+			(xy -4.318 0.761999) (xy 4.826 0.762) (xy 4.826 6.35) (xy -4.318 6.35)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5d1ee7ca-25d9-471e-a13d-6d285df4373c")
+	)
+	(pad "1" smd rect
+		(at -3.111 3.556)
+		(size 2.16 1.12)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "96618d5f-2b69-47b9-b579-f7e1c155e2d5")
+	)
+	(pad "2" smd rect
+		(at 3.619 3.556)
+		(size 2.16 1.12)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0166e82d-c736-42f1-a426-dcd35d5451d4")
+	)
+	(embedded_fonts no)
+	(model "${HKUST_RT_CONN_3D}/Tactile Switch SMD 6x3.6mm H=2.5mm RS-282G05A3-SM RT.stp"
+		(offset
+			(xyz 0.25 -3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

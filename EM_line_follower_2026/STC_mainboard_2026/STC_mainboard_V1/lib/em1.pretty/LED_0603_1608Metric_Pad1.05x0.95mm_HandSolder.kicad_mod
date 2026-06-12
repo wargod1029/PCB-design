@@ -1,0 +1,214 @@
+(footprint "LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "LED handsolder")
+	(property "Reference" "REF**"
+		(at 0 -1.43 0)
+		(layer "F.SilkS")
+		(uuid "53fbf97b-9d3a-4742-b783-3eb300eb3ca7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED1"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(uuid "93c97b62-8190-4dbe-94af-59eee774b6e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b45f7fb-aaab-4776-a8a2-4b655f4ea589")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a9145ab-a472-4a83-a87e-674cdcd44e09")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.8 0.735)
+		(end -1.66 0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6211385-e6f3-4a33-a8a5-671b89596e7c")
+	)
+	(fp_line
+		(start -1.66 0.735)
+		(end -1.66 -0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "290478e2-26b9-4d32-8184-715031f12552")
+	)
+	(fp_line
+		(start -1.66 -0.735)
+		(end 0.8 -0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1791cc90-e46a-43d5-b73d-119a5015a824")
+	)
+	(fp_line
+		(start 1.65 0.73)
+		(end 1.65 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aaf2dae9-f886-4fbd-912e-f8fed96bd45e")
+	)
+	(fp_line
+		(start 1.65 -0.73)
+		(end -1.65 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44247597-4ce3-4081-b5a7-afbdad182c45")
+	)
+	(fp_line
+		(start -1.65 0.73)
+		(end 1.65 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6794545-2d6a-42ed-807d-422e1e0a96eb")
+	)
+	(fp_line
+		(start -1.65 -0.73)
+		(end -1.65 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79cd73b7-4534-4dbe-b09b-5a2997692c6e")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c82bfe13-f80c-4cae-8092-bc1aa0caf743")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37b21672-aed4-48c6-aa2d-7af9f2351964")
+	)
+	(fp_line
+		(start -0.5 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6958a19-acba-4e88-b5f0-37b61e9953f6")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16004ded-7c85-46fc-b118-6ad51b2b0fc3")
+	)
+	(fp_line
+		(start -0.8 -0.1)
+		(end -0.5 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe3581f7-83d5-4d03-9bfc-869174b3a0cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b2892046-9abb-46c2-9b75-ca1306f3a0b6")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.874999 0 180)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a3c8c25f-66a8-4be7-a59c-983b08ee4c86")
+	)
+	(pad "2" smd roundrect
+		(at 0.874999 0 180)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "08127c29-372f-4828-bd28-f857b0b0c4c9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

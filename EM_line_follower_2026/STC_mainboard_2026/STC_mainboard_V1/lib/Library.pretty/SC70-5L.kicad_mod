@@ -1,0 +1,307 @@
+(footprint "SC70-5L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>SC-70 Package</b>")
+	(property "Reference" "REF**"
+		(at 0.18 2.51 0)
+		(layer "F.SilkS")
+		(uuid "6f2fa76b-bffa-4cc7-ab0f-a03b14116111")
+		(effects
+			(font
+				(size 0.800457 0.800457)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LMV321?_"
+		(at 2.360475 1.845505 0)
+		(layer "F.Fab")
+		(uuid "9c5242a9-4b8a-4e8a-9c9a-f0d3557f24f5")
+		(effects
+			(font
+				(size 0.80152 0.80152)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7883b2e-718b-42c0-8979-913c562c5f18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c71f904f-044c-488e-b6cc-74d5dfef19ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "STMicroelectronics"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e3ac6bb-f68d-47fb-abe6-8f23fc04616b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n                        \n                            General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5\n                        \n"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7306d048-fd85-480c-8b9c-086f10813fc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SOT-23-5 STMicroelectronics"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cf0e7d5-2635-45f7-97f4-df379e88e41b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3161dc4-9d7f-405b-bc2e-03038e03bfe1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMV321/STMicroelectronics/view-part/?ref=snap"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d88355e-99e1-4308-99dc-5f09ad3deb62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "LMV321"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2888226-2674-434f-b6a6-02459b2e1bc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "Not in stock"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fd97bac-cdbc-40fd-ae6d-f212fb225d7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/LMV321/STMicroelectronics/view-part/?ref=eda"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "640214c9-7a38-4a89-9303-4fe3f8ab7b23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.1 0.5)
+		(end 1.1 -0.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a71f011a-a0d3-4032-9a68-ab302970e2e1")
+	)
+	(fp_line
+		(start -1.1 -0.5)
+		(end -1.1 0.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8212ebf4-384b-4639-9bba-b483f8e53050")
+	)
+	(fp_circle
+		(center -0.65 0.2)
+		(end -0.5 0.2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7c9d5c97-6a1c-4dee-a0a9-90f1a2b89e7b")
+	)
+	(fp_line
+		(start 1.1 -0.5)
+		(end -1.1 -0.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e99d157a-a588-41b6-af32-0261d794c3d8")
+	)
+	(fp_line
+		(start -1.1 0.5)
+		(end 1.1 0.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00e0226e-8605-4981-8df2-9919580d8606")
+	)
+	(fp_poly
+		(pts
+			(xy 0.500836 0.600001) (xy 0.799999 0.6) (xy 0.8 1.10184) (xy 0.500836 1.10184)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "48dd166f-983c-49b5-8799-021d6cd78a3a")
+	)
+	(fp_poly
+		(pts
+			(xy 0.500556 -1.1) (xy 0.8 -1.1) (xy 0.8 -0.600667) (xy 0.500556 -0.600667)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4f7646f1-8e1c-4dfd-b411-720f9274dc7a")
+	)
+	(fp_poly
+		(pts
+			(xy -0.150044 0.6) (xy 0.15 0.6) (xy 0.15 1.10032) (xy -0.150044 1.10032)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "a5341951-e653-47e0-ab7e-d24376f83f46")
+	)
+	(fp_poly
+		(pts
+			(xy -0.800139 -1.1) (xy -0.5 -1.1) (xy -0.5 -0.600104) (xy -0.800139 -0.600104)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "5988f74f-3903-4701-bc58-714e4adad8de")
+	)
+	(fp_poly
+		(pts
+			(xy -0.800699 0.6) (xy -0.499999 0.6) (xy -0.5 1.10096) (xy -0.800699 1.10096)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4fee8609-6720-49c5-a881-f0319c24c127")
+	)
+	(pad "1" smd rect
+		(at -0.65 0.85 180)
+		(size 0.35 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "143d4f32-0c8e-447e-af90-c75a73c0d864")
+	)
+	(pad "2" smd rect
+		(at 0 0.85 180)
+		(size 0.35 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "036e5b85-1654-4ec3-bb96-a4dded6261bc")
+	)
+	(pad "3" smd rect
+		(at 0.65 0.85 180)
+		(size 0.35 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4635b2fe-e0e3-413c-8ba2-c31a3acdefa7")
+	)
+	(pad "4" smd rect
+		(at 0.65 -0.85 180)
+		(size 0.35 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "32d742dc-03d3-4c0d-9611-72b929eeba8e")
+	)
+	(pad "5" smd rect
+		(at -0.65 -0.85 180)
+		(size 0.35 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "cc883d58-704d-4857-9409-2c9cefd7454c")
+	)
+	(embedded_fonts no)
+)
