@@ -1939,6 +1939,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HKUST_RDC2025_Symbol_Lib:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "HKUST_RDC2025_Footprint_Lib:MountingHole_3.2mm_M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -4390,6 +4473,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 129.54) (xy 194.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6217ff4b-d40a-4d79-b8ef-bbff780abc22")
+	)
+	(wire
+		(pts
 			(xy 36.83 99.06) (xy 36.83 100.33)
 		)
 		(stroke
@@ -4738,16 +4831,6 @@
 		)
 		(uuid "f7ab1188-cdc5-45d6-bca9-f2e86c34cbf6")
 	)
-	(label "G{slash}"
-		(at 20.32 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "075d62cb-d284-4d02-aada-70c6a2ae5690")
-	)
 	(label "Bl{slash}"
 		(at 73.66 41.91 0)
 		(effects
@@ -4767,6 +4850,16 @@
 			(justify right bottom)
 		)
 		(uuid "0c420771-9386-4212-8ad2-03ebc856bfa0")
+	)
+	(label "Br{slash}"
+		(at 20.32 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "123ae69d-5de4-45a6-a138-0309f6752e4d")
 	)
 	(label "pps"
 		(at 261.62 63.5 180)
@@ -4788,6 +4881,16 @@
 		)
 		(uuid "160390c6-763e-4ac9-aadc-ef89514eb999")
 	)
+	(label "G"
+		(at 20.32 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b197dd9-09b0-402e-a49c-be0b9ebd0719")
+	)
 	(label "gnss_TX"
 		(at 194.31 134.62 180)
 		(effects
@@ -4797,6 +4900,16 @@
 			(justify right bottom)
 		)
 		(uuid "1d16bbe7-c5f5-454f-b776-473823743737")
+	)
+	(label "Bl{slash}"
+		(at 20.32 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f57a96d-e440-4477-a6a9-cf612803d827")
 	)
 	(label "pps"
 		(at 261.62 43.18 180)
@@ -4827,6 +4940,16 @@
 			(justify right bottom)
 		)
 		(uuid "267185da-5c75-4681-9c1e-4e649d5886bf")
+	)
+	(label "O"
+		(at 20.32 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34e06d57-f683-41c1-b5d7-f75fe6a022bd")
 	)
 	(label "O"
 		(at 73.66 49.53 0)
@@ -4888,16 +5011,6 @@
 		)
 		(uuid "4b85397b-8799-4c39-8bf0-769822f8528b")
 	)
-	(label "O"
-		(at 20.32 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5336d3f8-2a59-44bb-bc17-cae9a35beaa6")
-	)
 	(label "sync_pulse"
 		(at 194.31 132.08 180)
 		(effects
@@ -4908,6 +5021,16 @@
 		)
 		(uuid "5b5bab98-2102-4e7c-81ce-6ba0c77272e4")
 	)
+	(label "Br"
+		(at 20.32 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f36481d-0531-414e-8248-ab994a2b7ac7")
+	)
 	(label "UART_TX"
 		(at 110.49 165.1 180)
 		(effects
@@ -4917,26 +5040,6 @@
 			(justify right bottom)
 		)
 		(uuid "7563e637-6166-4eb6-bc49-e1a68353e94b")
-	)
-	(label "Bl"
-		(at 20.32 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76f80542-c965-403d-b3fe-6afa078e4b5c")
-	)
-	(label "Bl{slash}"
-		(at 20.32 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78494ff7-e000-4e04-a4e8-0cdad90f0c16")
 	)
 	(label "G{slash}"
 		(at 73.66 46.99 0)
@@ -4998,17 +5101,17 @@
 		)
 		(uuid "8e2c12ca-ea28-431a-9b06-0370b9b3c64a")
 	)
-	(label "Br{slash}"
-		(at 20.32 33.02 0)
+	(label "O{slash}"
+		(at 20.32 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "927f87d8-14c8-4f7a-bb87-4a887afe053a")
+		(uuid "b7165e11-cf2b-4fb1-85a0-13cb782dbbde")
 	)
-	(label "O{slash}"
+	(label "Bl"
 		(at 20.32 52.07 0)
 		(effects
 			(font
@@ -5016,7 +5119,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "965953cd-1983-497b-b16e-12473d4d0d87")
+		(uuid "bc6f6f8f-fd8c-404c-9d3e-f298609b0699")
 	)
 	(label "pps"
 		(at 261.62 82.55 180)
@@ -5048,15 +5151,15 @@
 		)
 		(uuid "d1fac83f-551f-4c53-83a5-5fc3edec518b")
 	)
-	(label "G"
-		(at 20.32 35.56 0)
+	(label "G{slash}"
+		(at 20.32 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e981dd70-8c92-44be-ae94-5e738e7a2906")
+		(uuid "d8f9d45d-217f-46ad-b225-bb18bd075b7b")
 	)
 	(label "UART_RX"
 		(at 262.89 151.13 180)
@@ -5077,16 +5180,6 @@
 			(justify right bottom)
 		)
 		(uuid "f1ce9739-6c31-42a3-a4c5-e481e3a697f4")
-	)
-	(label "Br"
-		(at 20.32 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2d62840-d821-4fa2-ac02-bce5d122cd2c")
 	)
 	(label "pps_in"
 		(at 110.49 142.24 180)
@@ -5307,6 +5400,70 @@
 		)
 	)
 	(symbol
+		(lib_id "HKUST_RDC2025_Symbol_Lib:MountingHole")
+		(at 204.47 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "136d35c8-58fe-4838-91c9-84ac535e5e15")
+		(property "Reference" "H1"
+			(at 207.01 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 207.01 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HKUST_RDC2025_Footprint_Lib:MountingHole_3.2mm_M3"
+			(at 204.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 204.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/70a6597b-00ef-4313-aa1e-75eef7e0759e"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 33.02 86.36 90)
 		(unit 1)
@@ -5434,6 +5591,70 @@
 			(project "pcb"
 				(path "/70a6597b-00ef-4313-aa1e-75eef7e0759e"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HKUST_RDC2025_Symbol_Lib:MountingHole")
+		(at 204.47 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24c10504-d991-4293-a4a5-1c529a279efb")
+		(property "Reference" "H2"
+			(at 207.01 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 207.01 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HKUST_RDC2025_Footprint_Lib:MountingHole_3.2mm_M3"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/70a6597b-00ef-4313-aa1e-75eef7e0759e"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7505,6 +7726,70 @@
 		)
 	)
 	(symbol
+		(lib_id "HKUST_RDC2025_Symbol_Lib:MountingHole")
+		(at 204.47 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bf62e23-9e31-4aca-9adc-d52f765d48cb")
+		(property "Reference" "H3"
+			(at 207.01 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 207.01 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HKUST_RDC2025_Footprint_Lib:MountingHole_3.2mm_M3"
+			(at 204.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 204.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/70a6597b-00ef-4313-aa1e-75eef7e0759e"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 266.7 53.34 0)
 		(unit 1)
@@ -9133,6 +9418,70 @@
 			(project "pcb"
 				(path "/70a6597b-00ef-4313-aa1e-75eef7e0759e"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HKUST_RDC2025_Symbol_Lib:MountingHole")
+		(at 204.47 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d64f71f5-f8c6-4c82-bc9a-18376e9fcc3b")
+		(property "Reference" "H4"
+			(at 207.01 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 207.01 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HKUST_RDC2025_Footprint_Lib:MountingHole_3.2mm_M3"
+			(at 204.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 204.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/70a6597b-00ef-4313-aa1e-75eef7e0759e"
+					(reference "H4")
 					(unit 1)
 				)
 			)
