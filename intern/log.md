@@ -6,6 +6,11 @@
 - Finalize coding implementation
 
 ***
+### 17/06/2026
+
+
+### 16/06/2026
+sick leave
 
 ### 15/06/2026
 - Completed first PCB schematic design in KiCad  
