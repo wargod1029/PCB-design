@@ -519,7 +519,7 @@
       "plot": "intern_PCB_gbr/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pcb.step",
       "svg": "",
       "vrml": ""
     },
