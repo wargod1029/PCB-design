@@ -97,6 +97,15 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8) == GPIO_PIN_SET)
+    {
+      HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+    }
+    else
+    {
+      HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_2);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, GPIO_PIN_RESET);
+    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
