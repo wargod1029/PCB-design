@@ -7,8 +7,10 @@
 
 ***
 ### 17/06/2026
-
-
+annotation on abandon
+image count: 1521 (14:30)
+image count: 3806 (17:17)
+image count: 4127 (17:50)
 ### 16/06/2026
 sick leave
 
