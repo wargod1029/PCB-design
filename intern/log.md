@@ -4,8 +4,12 @@
 ### Task List
 - Complete annotation
 - Finalize coding implementation
+- new robot task
 
 ***
+### 18/06/2026
+
+
 ### 17/06/2026
 annotation on abandon
 image count: 1521 (14:30)

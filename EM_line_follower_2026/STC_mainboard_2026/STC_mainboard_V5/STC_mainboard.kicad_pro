@@ -518,7 +518,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "STC_mainboard_V5/",
+      "plot": "STC_mainboard_V4_gbr/",
       "pos_files": "smt/",
       "specctra_dsn": "",
       "step": "STC_mainboard.step",
