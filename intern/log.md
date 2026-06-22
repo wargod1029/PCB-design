@@ -7,14 +7,24 @@
 - new robot task
 
 ***
-### 18/06/2026
+### 22/06/2026
+annotation on abandon
+image count: 10000/15151 (10:30)
+image count: 11038/15151 (13:00)
+image count: 12053/15151 (15:00)
 
+### 18/06/2026
+annotation on abandon
+image count: 6545/15151 (15:00)
+image count: 7700/15151 (16:30)
+image count: 8200/15151 (17:00)
+image count: 9056/15151 (17:55)
 
 ### 17/06/2026
 annotation on abandon
-image count: 1521 (14:30)
-image count: 3806 (17:17)
-image count: 4127 (17:50)
+image count: 1521/13151 (14:30)
+image count: 3806/13151 (17:17)
+image count: 4127/13151 (17:50)
 ### 16/06/2026
 sick leave
 
