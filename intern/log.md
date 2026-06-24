@@ -65,6 +65,9 @@ do it really need to throw or just transportation
 
 #### annotation on corrosion
 - image count: 2938/6458 (14:00)
+- image count: 3500/6458 (16:00)
+- image count: 4020/6458 (17:50)
+
 ### 23/06/2026
 
 
