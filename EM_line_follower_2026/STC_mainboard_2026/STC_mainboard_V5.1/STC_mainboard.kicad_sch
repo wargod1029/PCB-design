@@ -7387,6 +7387,26 @@
 		)
 		(uuid "30fcb3b5-3f17-4b91-bb13-5eb6d1a2e20e")
 	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 32.258 363.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f54fc21-4681-414b-bdbf-61f3aa981fbd")
+	)
+	(text "SCL"
+		(exclude_from_sim no)
+		(at 32.512 366.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55a5e978-7ec2-4d16-8ce6-0fd2938a060f")
+	)
 	(text "encoder\n"
 		(exclude_from_sim no)
 		(at 75.438 143.256 90)
@@ -7416,16 +7436,6 @@
 			)
 		)
 		(uuid "78accaa2-fb98-484b-86a0-a9ccbcd8c614")
-	)
-	(text "SCL"
-		(exclude_from_sim no)
-		(at 32.512 363.474 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7a1f4185-4921-4a9a-b750-435c38bd66a6")
 	)
 	(text "Beeper\n\n"
 		(exclude_from_sim no)
@@ -7466,16 +7476,6 @@
 			)
 		)
 		(uuid "bfab19c5-2714-4a9e-a355-46e71369bf0d")
-	)
-	(text "SDA"
-		(exclude_from_sim no)
-		(at 32.258 366.268 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cd508521-8ae5-408e-98e8-2bcb5c475006")
 	)
 	(text "I2C"
 		(exclude_from_sim no)
@@ -7762,6 +7762,12 @@
 		(uuid "93f34132-88e1-467d-b4ad-c5d40f0c23fa")
 	)
 	(junction
+		(at 62.23 369.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "946d43b2-cadb-4f99-9d05-e643349ac1e1")
+	)
+	(junction
 		(at 495.3 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7894,6 +7900,12 @@
 		(uuid "caa00011-880c-4378-b76d-56cc23d53a56")
 	)
 	(junction
+		(at 62.23 367.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce38172b-adf1-4f3e-9c4a-f283e333cd1a")
+	)
+	(junction
 		(at 95.25 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7946,6 +7958,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e61294e9-2bbd-4373-b477-9766c8269927")
+	)
+	(junction
+		(at 62.23 364.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7507d2d-504f-4f4c-b4a9-b95de14089a0")
 	)
 	(junction
 		(at 101.6 182.88)
@@ -9127,6 +9145,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 361.95) (xy 62.23 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e55d452-32b4-42ca-a963-3e1070ffe164")
+	)
+	(wire
+		(pts
 			(xy 499.11 288.29) (xy 492.76 288.29)
 		)
 		(stroke
@@ -9334,6 +9362,16 @@
 			(type default)
 		)
 		(uuid "6cf66faf-5dfa-46ab-93f4-0052131c4968")
+	)
+	(wire
+		(pts
+			(xy 62.23 364.49) (xy 62.23 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e941131-6d0e-469f-a7f3-5e48acbd8377")
 	)
 	(wire
 		(pts
@@ -10487,6 +10525,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 367.03) (xy 62.23 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27fc2b0-7270-47a5-8fc4-c5a84035eaa9")
+	)
+	(wire
+		(pts
 			(xy 383.54 284.48) (xy 379.73 284.48)
 		)
 		(stroke
@@ -10935,6 +10983,16 @@
 		)
 		(uuid "28e7828b-a277-4247-92fd-b0d39a18f074")
 	)
+	(label "P6.5"
+		(at 39.37 367.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ce3cf0d-58eb-409d-ae14-d27a0df2bdbb")
+	)
 	(label "M2O2"
 		(at 487.68 26.67 0)
 		(effects
@@ -10994,16 +11052,6 @@
 			(justify left bottom)
 		)
 		(uuid "3f7fa668-ee45-42de-b07e-234024626faa")
-	)
-	(label "P6.3"
-		(at 39.37 367.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "448bccf4-dada-4549-895e-54f22d4acdfd")
 	)
 	(label "P3.7"
 		(at 96.52 101.6 0)
@@ -11074,16 +11122,6 @@
 			(justify left bottom)
 		)
 		(uuid "5c986bff-2d80-44cb-953c-02217c4c2228")
-	)
-	(label "P6.5"
-		(at 39.37 364.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5debb1ef-0745-42a1-9444-847ba0a10ae4")
 	)
 	(label "P0.5"
 		(at 96.52 33.02 0)
@@ -11484,6 +11522,16 @@
 			(justify left bottom)
 		)
 		(uuid "d648c09a-8411-4790-8288-903079706bef")
+	)
+	(label "P6.3"
+		(at 39.37 364.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d81a4bd8-7150-4b22-b4e7-3bb9b41d41fe")
 	)
 	(label "P0.3"
 		(at 96.52 38.1 0)
@@ -15191,6 +15239,259 @@
 			(project "STC_mainboard"
 				(path "/3dbd0099-64a2-40b8-9866-2cb85c958c5c"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STC:Conn_01x04")
+		(at 67.31 364.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d6eeb60-c118-4713-a9fd-55e36cff67c2")
+		(property "Reference" "J18"
+			(at 69.85 364.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 69.85 367.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price(RMB)" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Publisher" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "67928b70-ca5f-431c-a33e-4b6f6829e153")
+		)
+		(pin "1"
+			(uuid "f0a4a878-25e2-4909-8182-4008906ec8ac")
+		)
+		(pin "2"
+			(uuid "c39b1985-23a6-435b-9781-9d01e961def5")
+		)
+		(pin "4"
+			(uuid "4e71bc5e-c83d-42b8-ba1f-a994eb6e9383")
+		)
+		(instances
+			(project "STC_mainboard"
+				(path "/3dbd0099-64a2-40b8-9866-2cb85c958c5c"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -22124,7 +22425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 44.45 364.49 0)
 			(hide yes)
 			(show_name no)
@@ -40262,6 +40563,84 @@
 			(project "STC_mainboard"
 				(path "/3dbd0099-64a2-40b8-9866-2cb85c958c5c"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 369.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea9642c9-ad2d-4e82-a420-26ea0800f58a")
+		(property "Reference" "#PWR028"
+			(at 62.23 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 374.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d00662c8-cc63-4a73-b382-37790ed0a3dc")
+		)
+		(instances
+			(project "STC_mainboard"
+				(path "/3dbd0099-64a2-40b8-9866-2cb85c958c5c"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
