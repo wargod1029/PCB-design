@@ -10,6 +10,7 @@
 ### 25/06/2026
 #### annotation on corrosion
 - image count: 4520/6458 (11:00)
+- image count: 5000/6458 (15:00)
 ### 24/06/2026
 #### preparation about robotic arm
 - choice of motor
