@@ -1,0 +1,125 @@
+{
+  "devices": {
+    "edea4fad523445de9da2fed71ace38f6": {
+      "uuid": "edea4fad523445de9da2fed71ace38f6",
+      "path": "8d15ab4bec2c4a029a1766c2182d204d",
+      "attributes": {
+        "Symbol": "65d1bc37a3404ab8ab15bad50d7847a0",
+        "Footprint": "63d6480f4d67442dafcab2ab0e53eb25",
+        "Name": "BT2.0 male",
+        "Designator": "CN?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Value": "",
+        "Description": "BT2.0 male connector"
+      },
+      "images": null,
+      "ticket": 5,
+      "updateTime": 1737645518000,
+      "createTime": 1737632437000,
+      "title": "bt2.0 male",
+      "description": "",
+      "display_title": "BT2.0 male",
+      "creator": {
+        "uuid": "8d15ab4bec2c4a029a1766c2182d204d",
+        "nickname": "birvizkozak",
+        "username": "birvizkozak"
+      },
+      "modifier": {
+        "uuid": "8d15ab4bec2c4a029a1766c2182d204d",
+        "nickname": "birvizkozak",
+        "username": "birvizkozak"
+      },
+      "owner": {
+        "uuid": "8d15ab4bec2c4a029a1766c2182d204d",
+        "nickname": "birvizkozak",
+        "username": "birvizkozak"
+      },
+      "tags": {
+        "parent_tag": {
+          "uuid": "6350b478fca849ffb6f682d0198e2dab",
+          "name": "Connectors",
+          "name_cn": ""
+        },
+        "child_tag": []
+      },
+      "source": "2c0f8530e5b64f89",
+      "version": "bc0d6df3b7d32894",
+      "symbol_type": 2,
+      "tag": {},
+      "footprint_type": 4
+    }
+  },
+  "symbols": {
+    "65d1bc37a3404ab8ab15bad50d7847a0": {
+      "uuid": "65d1bc37a3404ab8ab15bad50d7847a0",
+      "path": "8d15ab4bec2c4a029a1766c2182d204d",
+      "ticket": 5,
+      "updateTime": 1737645262000,
+      "createTime": 1737632436000,
+      "title": "BT2.0",
+      "description": "BT2.0 male connector",
+      "display_title": "BT2.0",
+      "creator": {
+        "uuid": "8d15ab4bec2c4a029a1766c2182d204d",
+        "nickname": "birvizkozak",
+        "username": "birvizkozak"
+      },
+      "modifier": {
+        "uuid": "8d15ab4bec2c4a029a1766c2182d204d",
+        "nickname": "birvizkozak",
+        "username": "birvizkozak"
+      },
+      "owner": {
+        "uuid": "8d15ab4bec2c4a029a1766c2182d204d",
+        "nickname": "birvizkozak",
+        "username": "birvizkozak"
+      },
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "source": "707f2bb5246a0b88",
+      "version": "1781612449999",
+      "docType": 2,
+      "type": 2,
+      "desc": "BT2.0 male connector"
+    }
+  },
+  "footprints": {
+    "63d6480f4d67442dafcab2ab0e53eb25": {
+      "uuid": "63d6480f4d67442dafcab2ab0e53eb25",
+      "path": "8d15ab4bec2c4a029a1766c2182d204d",
+      "ticket": 2,
+      "updateTime": 1737645262000,
+      "createTime": 1737633497000,
+      "title": "BT2.0",
+      "description": "",
+      "display_title": "BT2.0",
+      "creator": {
+        "uuid": "8d15ab4bec2c4a029a1766c2182d204d",
+        "nickname": "birvizkozak",
+        "username": "birvizkozak"
+      },
+      "modifier": {
+        "uuid": "8d15ab4bec2c4a029a1766c2182d204d",
+        "nickname": "birvizkozak",
+        "username": "birvizkozak"
+      },
+      "owner": {
+        "uuid": "8d15ab4bec2c4a029a1766c2182d204d",
+        "nickname": "birvizkozak",
+        "username": "birvizkozak"
+      },
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "source": "707f2bb5246a0b88",
+      "version": "1781612451243",
+      "docType": 4,
+      "type": 4,
+      "desc": ""
+    }
+  }
+}
