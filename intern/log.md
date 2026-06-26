@@ -7,14 +7,41 @@
 - new robot task
 
 ***
+### 26/06/2026
+#### annotation on corrosion
+
+#### preparation about robotic arm (3 hour)   
+- [reference manual](./robotic_arm/sigma7_communication_references_project.pdf)
+- ![](./robotic_arm/image/EtherCAT_RUN_indicator.png)
+- ![](./robotic_arm/image/EtherCAT_ERR_indicator.png)
+- ![](./robotic_arm/image/EtherCAT_LINK_indicator.png)
+- ![servo pack choices](./robotic_arm/image/servopack_choice.png)
+- 4.3: wiring the power supply to the SERVOPACK
+  - **required external regenerative resistor between B1/+ and B2**
+  - power supply: 200VAC to 240 VAC 50Hz/ 60 Hz
+  - ![wiring](./robotic_arm/image/servo_wireconnection.png)
+  - use three phase for continuous, steady flow of energy
+  - ![wiring diagram 1](./robotic_arm/image/wiring_diagram1.png)
+  - ![wiring diagram 2](./robotic_arm/image/wiring_diagram2.png)
+  - ![wiring diagram more than one servo](./robotic_arm/image/wiring_diagram3.png)
+  
+
+
+#### annotation on corrosion
+- image count: /6458 (12:00)
 ### 25/06/2026
 #### annotation on corrosion
 - image count: 4520/6458 (11:00)
 - image count: 5000/6458 (15:00)
-- image count: 5500/6458 (16:00)
+- image count: 5579/6458 (17:00)
+#### preparation about robotic arm (3 hour)
+- Control of AC motor
+- AC motor driver from yaskawa
+- introduction to ROS (robotic operating systme)
+  - [ROS](./robotic_arm/ROS.pdf)
 
 ### 24/06/2026
-#### preparation about robotic arm
+#### preparation about robotic arm (5hour)
 - choice of motor
   - AC motor
   - AC servo motor
@@ -61,13 +88,13 @@ Force and torque
 
 - safety factor 1.5-2
  
-want to know about the dimension limit 
+**want to know about the dimension limit 
 the power/voltage limit 
 of the robotic arm
 and the budget allowed
 how long the arm be
 how far the target be
-do it really need to throw or just transportation
+do it really need to throw or just transportation**
 
 #### annotation on corrosion
 - image count: 2938/6458 (14:00)
