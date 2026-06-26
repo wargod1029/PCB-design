@@ -8,8 +8,6 @@
 
 ***
 ### 26/06/2026
-#### annotation on corrosion
-
 #### preparation about robotic arm (3 hour)   
 - [reference manual](./robotic_arm/sigma7_communication_references_project.pdf)
 - ![](./robotic_arm/image/EtherCAT_RUN_indicator.png)
@@ -24,11 +22,20 @@
   - ![wiring diagram 1](./robotic_arm/image/wiring_diagram1.png)
   - ![wiring diagram 2](./robotic_arm/image/wiring_diagram2.png)
   - ![wiring diagram more than one servo](./robotic_arm/image/wiring_diagram3.png)
-  
 
+  - 4.3.5 wiring regenerative resistors
+  - 4.3.6 wiring reactors for harmonic suppression
+  - 4.4.3 wiring absolute encoder
+  - 4.4.4 wiring holding brake
+    - ![wiring diagram for holding brake](./robotic_arm/image/wiring_holding_brake.png)
+  - use Photocoupler Circuit for isolate signal from high frequency power
+  - use line driver for projection 
+  - safety input circuit 
+    - ![wiring diagram for safety input circuit](./robotic_arm/image/safety_input_circuit.png)
 
 #### annotation on corrosion
-- image count: /6458 (12:00)
+- image count: 6010/6458 (12:00)
+- image count: 6458/6458 (16:00)
 ### 25/06/2026
 #### annotation on corrosion
 - image count: 4520/6458 (11:00)
