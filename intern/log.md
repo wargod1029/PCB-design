@@ -7,8 +7,19 @@
 - new robot task
 
 ***
+### 27/06/2026
+#### BD project (7 hour)
+- lidar testing
+  - setting up ROS
+- bluepill coding 
+  - sync 1 Hz PPS to generate 10Hz
+- solder and wire from lidar to PCB
+
+#### AnyLabekling (1 hour)
+
+
 ### 26/06/2026
-#### preparation about robotic arm (3 hour)   
+#### preparation about robotic arm (4 hour)   
 - [reference manual](./robotic_arm/sigma7_communication_references_project.pdf)
 - ![](./robotic_arm/image/EtherCAT_RUN_indicator.png)
 - ![](./robotic_arm/image/EtherCAT_ERR_indicator.png)
@@ -35,7 +46,10 @@
 
 #### annotation on corrosion
 - image count: 6010/6458 (12:00)
-- image count: 6458/6458 (16:00)
+- image count: 6458/6458 (17:30)
+
+#### Any labeling
+half hour
 ### 25/06/2026
 #### annotation on corrosion
 - image count: 4520/6458 (11:00)
